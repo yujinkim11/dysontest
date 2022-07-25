@@ -5,6 +5,7 @@ const Wrap = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0 120px;
+  width: 100%;
   height: 80px;
   position: fixed;
   top: 0;
