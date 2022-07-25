@@ -1,5 +1,7 @@
+import { Section1 } from "./Section1";
+
 function App() {
-  return <div>테스트</div>;
+  return <Section1 />;
 }
 
 export default App;
