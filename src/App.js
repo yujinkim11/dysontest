@@ -1,13 +1,19 @@
-
+import { Footer } from "./Footer";
+import { GlobalStyle } from "./GlobalStyle";
+import { Header } from "./Header";
+import { Section_3 } from "./Section_3";
 import { Section2 } from "./Section2";
 import { Section4 } from "./Section4";
 
 function App() {
   return (
-    <div>
-      <Section4 />
-        <Section2 />
-    </div>
+    <>
+      <GlobalStyle />
+      <Header />
+      <Section_3 />
+      <Footer />
+    </>
+
 
   );
 }
